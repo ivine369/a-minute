@@ -1,6 +1,7 @@
 ## Pitch App
     An application that will help one manage one minute to deliver their ideas. 
 #### By Ivine Kemuma
+
 #### Description
     An application that will help users to pitch their ideas within a span of one minute in an organised manner.
 
