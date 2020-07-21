@@ -5,7 +5,7 @@ from ..models import User
 
 class RegistrationForm(FlaskForm):
     """
-    RegstrationForm class that passes in the required details for validation
+    Registration Form class that passes in the required details for validation
     """
 
     email = StringField('your email address',validators=[Required(),Email()])
