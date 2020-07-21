@@ -5,7 +5,7 @@ class Config:
 
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:123@localhost/pitchy'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ivine:anne2001@localhost/pitching'
 
     SECRET_KEY = "try harder"
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
