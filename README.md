@@ -19,6 +19,7 @@
     *Python
     *Heroku
 #### BDD
+
 #### Business Logic
    An application that will help one pitch ideas in a span of one minute.A user would see various pitches sources on the homepage of the application and select a pitch and see all news pitches and even vote on the pitches.
 
