@@ -3,6 +3,7 @@
 #### By Ivine Kemuma
 
 #### Description
+
     An application that will help users to pitch their ideas within a span of one minute in an organised manner.
 
 #### Setup/Installation Requirements
