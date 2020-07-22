@@ -5,7 +5,7 @@ class Config:
 
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitching'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kiiru:access@localhost/pitching'
 
     SECRET_KEY = "try harder"
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
@@ -17,7 +17,7 @@ class Config:
 
 class ProdConfig(Config):
     """Production configuration class that inherits from the main configurations class"""
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+# SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
     
 
 class DevConfig(Config):
